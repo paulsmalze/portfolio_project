@@ -1,23 +1,85 @@
-div{
+body{
+	font-family: 'Montserrat', sans-serif;
 	background-color: lightblue;
+	margin:15 px;
+}
+.navbar{
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+.navbar a{
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 33%; 
+  text-align: center; 
+}
+#pets{
+	width: 150px
+}
+#friend{
+	background-color: purple;
+}
+.selection{
 	display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    margin bottom: 15px;
+}
+.Pepper{
+	/*background-color: yellow;*/
+	margin: 20px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center
+}
+.Mikan{
+	/*background-color: red;*/
+	margin-bottom: 20px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 	align-items: center;
-	margin: 15px;
-	justify-content: space-between;
 }
-ul{
+.Beau{
+	/*background-color: green;*/
+	margin-bottom: 20px;
 	display: flex;
-	flex-direction: row;
-	list-style: none;
-
+	align-content: center;
+	justify-content: center;
+	align-items: center;
 }
-li{
+.button{
+	margin: 15px
+}
+h3{
+	display: inline-block;
+	width: 400px;
+	margin: 20px;
+	text-align: center;
+    /*padding-left: 200px*/
+}
+img{
 	width: 200px
 }
-a{
-	text-decoration: none;
+   @media only screen and (max-width: 900px) {
+    body {
+        background-color: red; 
+    }
+    @media only screen and (max-width: 630px) {
+    body {
+        background-color: yellow;
+    }
+    @media only screen and (max-width: 450px) {
+   .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  } 
+}
 
-}
-form{
-	padding: 15px;
-}

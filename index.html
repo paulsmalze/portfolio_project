@@ -8,20 +8,37 @@
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<div>
-			<img src="https://images.app.goo.gl/5uEVnKFannpmecVx6" alt="heart-icon">
-			<h1>Pet Shelter</h1>
-			<ul>
-				<li>
-					<a href="#">Find a pet</a>
-				</li>
-				<li>
-					<a href="#">About</a>
-				</li>
-			</ul>
-			<form action="process.php">
-				<input type="submit" name="Donate" value="Donate">
-			</form>
+		<img src="img/heart.png" alt="heart icon" width="200">
+		<h1>Pet Shelter</h1>
+		<div class="navbar">
+			<a class="active" href="#">Find a pet</a> 
+			<a href="#">About</a>
+			<button class="button">Donate</button>
+		</div>
+		<h3>I'm looking for a pet?</h3>
+		
+		<select name="pets" id="pets">
+			<option value="Dog">Dog</option>
+			<option value="Cat">Cat</option>
+			<option value="Bird">Bird</option>
+		</select>
+		<h3> zip code.</h3>
+		<input type="text" name="zip" id="zip">
+		<a id="friend" href="#">Find your new best friend</a>
+		<div class="Pepper">
+			<img src="img/pepper.png" alt="a grey tabby" width="200"> 
+			<h2>Pepper:</h2>
+			<p>Pepper is a slightly shy grey tabby,but she really loves showing her human affection.</p>
+		</div>
+		<div class="Mikan">
+			<h2>Mikan:</h2>
+			<p>Mikan is a sweet,energetic Shiba Inu,she's 3 years old and looking for a new home.</p>
+			<img src="img/Mikan.png" alt="a shiba-inu">
+		</div>
+		<div class="Beau">
+			<img src="img/parrot.jpg" alt="photo of a parrot">
+			<h2>Beau:</h2>
+			<p>Beau is a big,sweet and loyal Parrot.He loves long walks and cold weather</p>
 		</div>
 	</body>
 </html>
