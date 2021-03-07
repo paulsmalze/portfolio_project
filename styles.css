@@ -2,6 +2,17 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	background-color: lightblue;
 	margin:15 px;
+	border: 1px solid black;
+}
+form{
+  float: left;
+  padding: 0px;
+  color: green;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%; 
+  text-align: center;
+
 }
 .navbar{
   width: 100%;
@@ -22,6 +33,7 @@ body{
 }
 #friend{
 	background-color: purple;
+	float: right;
 }
 .selection{
 	display: flex;
@@ -30,23 +42,22 @@ body{
     margin bottom: 15px;
 }
 .Pepper{
-	/*background-color: yellow;*/
 	margin: 20px;
 	display: flex;
 	align-content: center;
 	justify-content: center;
 	align-items: center
+	vertical align-content
+	padding:20px;
 }
 .Mikan{
-	/*background-color: red;*/
-	margin-bottom: 20px;
+	margin: 20px;
 	display: flex;
 	align-content: center;
 	justify-content: center;
 	align-items: center;
 }
 .Beau{
-	/*background-color: green;*/
 	margin-bottom: 20px;
 	display: flex;
 	align-content: center;
@@ -54,17 +65,17 @@ body{
 	align-items: center;
 }
 .button{
-	margin: 15px
+    margin: 15px
 }
-h3{
-	display: inline-block;
-	width: 400px;
-	margin: 20px;
-	text-align: center;
-    /*padding-left: 200px*/
-}
+
 img{
-	width: 200px
+	width: 200px;
+
+}
+h4{
+	color: blue;
+	text-decoration: underline;
+	font-family:'Montserrat', sans-serif;
 }
    @media only screen and (max-width: 900px) {
     body {
@@ -75,7 +86,10 @@ img{
         background-color: yellow;
     }
     @media only screen and (max-width: 450px) {
-   .navbar a {
+    body {
+    	background: pink;
+    }	
+   /*.navbar a {
     float: none;
     display: block;
     width: 100%;
